@@ -1,0 +1,27 @@
+{
+  "name": "str2color",
+  "version": "0.1.0",
+  "description": "Convert an arbitrary string to a color",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manuelzs/str2color"
+  },
+  "keywords": [
+    "string",
+    "color",
+    "string2color"
+  ],
+  "author": "Manuel Zapata",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/manuelzs/str2color/issues"
+  },
+  "homepage": "https://github.com/manuelzs/str2color",
+  "dependencies": {
+    "tape": "^4.5.1"
+  }
+}
