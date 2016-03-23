@@ -1,6 +1,6 @@
 {
   "name": "str2color",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Convert an arbitrary string to a color",
   "main": "index.js",
   "scripts": {
