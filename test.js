@@ -2,6 +2,9 @@ var str2color = require("./");
 var test = require("tape");
 
 test('str2color', function (assert) {
-    assert.plan(1);
-    assert.strictEqual(str2color('foo'), '#FFCC00');
+    assert.plan(4);
+    assert.strictEqual(str2color(), '#5A1000');
+    assert.strictEqual(str2color(''), '#5A1000');
+    assert.strictEqual(str2color(' '), '#5A1000');
+    assert.strictEqual(str2color('hola'), '#212B78');
 });
