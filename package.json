@@ -13,7 +13,8 @@
   "keywords": [
     "string",
     "color",
-    "string2color"
+    "string2color",
+    "str2color"
   ],
   "author": "Manuel Zapata",
   "license": "Apache 2.0",
